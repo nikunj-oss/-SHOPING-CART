@@ -242,6 +242,7 @@ void buy(){
                 c++;
 
                 pay+=curr->preprice*quant;
+		curr->quantity=curr->quantity-quant;
                 i++;
             }
             else{
